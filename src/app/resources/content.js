@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Narendar",
-  lastName: "Shaw",
+  firstName: "Sri",
+  lastName: "Varsha",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "srivarshaprataprao@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Telugu", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,12 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/SriVarsha984/portfolio.git",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/srivarsha-prataprao-a30686331/",
   },
   {
     name: "X",
@@ -55,25 +55,20 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Bridging UX and Engineering</>,
   featured: {
     display: true,
     title: (
       <>
-        Recent project: <strong className="ml-4">Once UI</strong>
+        Recent project: <strong className="ml-4">UI</strong>
       </>
     ),
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        icon={false}
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+     I'm SriVarsha, a Design Engineer at UI, where I craft intuitive and user-focused digital experiences. 
+     Outside of work, I channel my creativity into building personal projects that bring ideas to life.
     </>
   ),
 };
@@ -99,10 +94,11 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        SriVarsha is a Kolkata-based Design Engineer passionate about transforming complex challenges 
+        into simple, elegant design solutions. Her expertise spans digital interfaces, interactive experiences, 
+        and the seamless integration of design and technology.
+
+
       </>
     ),
   },
@@ -111,12 +107,12 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
+        company: "Oracle",
+        timeframe: "2025 - Present",
         role: "Senior Design Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
+            Redesigned the UI/UX for the Oracle platform, resulting in a 20%
             increase in user engagement and 30% faster load times.
           </>,
           <>
@@ -135,8 +131,8 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
+        company: "Chubb",
+        timeframe: "2021 - 2025",
         role: "Lead Designer",
         achievements: [
           <>
@@ -157,8 +153,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Kakatiya Institute of Technologies and Science",
+        description: <>Studied Computer Science Engineering.</>,
       },
       {
         name: "Build the Future",
